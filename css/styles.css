@@ -1,0 +1,326 @@
+.m-t-10 {
+  margin-top: 10rem;
+}
+
+.m-t-5 {
+  margin-top: 5rem;
+}
+
+.m-t-3 {
+  margin-top: 3rem;
+}
+
+.w-50 {
+  max-width: 50%;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.button_common {
+  padding: 1.2rem 2.5rem;
+  background-color: #147b74;
+  border-color: #147b74;
+  border: 0.5rem #147b74;
+  border-radius: 2rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+body {
+  background-color: #fdfbfb;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav .Brand-logo {
+  font-weight: bolder;
+}
+
+header nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 1rem;
+}
+
+.landing-image {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-image: url("../images/image-hero-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 50vh;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem;
+  min-width: 60vw;
+  border: 0.1px solid #f2f2f2;
+  background-color: #fff;
+  border-radius: 0.9rem;
+}
+
+.card img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.card .main-card_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .main-card_text .main-card_text-title {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.card .main-card_text .main-card_text-pragraph {
+  color: #7a7a7a;
+}
+
+.card .logo_card {
+  position: absolute;
+  height: 70px;
+  top: -40px;
+}
+
+.bookmark_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bookmark_container .Back-this-project .Back-this-project-button {
+  padding: 1.2rem 2.5rem;
+  margin-top: 2rem;
+  background-color: #147b74;
+  border-color: #147b74;
+  border: 0.5rem #147b74;
+  border-radius: 2rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.bookmark_container .bookmark_icon_text-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  color: #147b74;
+  margin-top: 2rem;
+  background-color: rgba(189, 224, 223, 0.829);
+  border-color: rgba(189, 224, 223, 0.829);
+  border: 0.5rem #147b74;
+  padding-right: 2rem;
+  border-radius: 2rem;
+  font-weight: bold;
+}
+
+.bookmark_container .bookmark_icon_text-button img {
+  margin-right: 0.5rem;
+  background-color: rgba(189, 224, 223, 0.829);
+  height: 70px;
+  border-radius: 2rem;
+}
+
+.bookmark_container .bookmark_icon_text-button span {
+  margin-left: 0.5rem;
+}
+
+.bookmark_container .bookmark_svg {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.bookmark_container .circle {
+  fill: #147b74;
+}
+
+.bookmark_container .path {
+  fill: #fff;
+}
+
+.card_amounts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card_amounts hr {
+  border: none;
+  border-left: 1px solid #f2f2f2;
+  height: 100%;
+  width: 1px;
+}
+
+.card_amounts .amounts_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card_amounts .amounts_container .amounts_item {
+  margin-right: 1rem;
+}
+
+.progress_bar {
+  border: none;
+  border-radius: 2rem;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.progress_bar::-moz-progress-bar {
+  border-radius: 2rem;
+  background: #3cb4ac;
+  width: 100%;
+}
+
+.about_this_project p {
+  color: #7a7a7a;
+}
+
+.about_this_project_title {
+  margin-bottom: 2rem;
+}
+
+.about_this_project_paragraph {
+  margin-bottom: 1rem;
+}
+
+.card_outline {
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 1rem 0;
+}
+
+.card_outline .head_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.card_outline .head_section .card_outline_plage {
+  color: #147b74;
+}
+
+.card_outline .card_outline_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+}
+
+.card_outline .card_outline_footer .card_outline_number_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card_outline .card_outline_footer .card_outline_number_left h2 {
+  margin-right: 0.4rem;
+}
