@@ -11,6 +11,7 @@ $Border-radius-card: 0.9rem;
 $Moblie-viewport: 375px;
 $Desktop-viewport: 440px;
 $Base-font: 16px;
+
 .m-t-10 {
 	margin-top: 10rem;
 }
@@ -38,6 +39,7 @@ $Base-font: 16px;
 	font-weight: bold;
 }
 body {
+	line-height: 30px;
 	background-color: $Background-color-main;
 }
 header {
@@ -46,13 +48,14 @@ header {
 	// z-index: 1;
 	nav {
 		display: flex;
-		margin: 1rem;
+		margin: 2.6rem 10rem;
 		justify-content: space-between;
 		a {
 			color: #fff;
 			text-decoration: none;
 		}
 		.Brand-logo {
+			font-size: $Base-font + 4;
 			font-weight: bolder;
 		}
 		ul {
@@ -73,7 +76,7 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-width: 100%;
-	min-height: 50vh;
+	min-height: 350px;
 }
 main {
 	display: flex;
@@ -189,6 +192,9 @@ main {
 		justify-content: space-between;
 		.amounts_item {
 			margin-right: 1rem;
+			P {
+				color: $Neutral-color-dark-gray;
+			}
 		}
 	}
 }
@@ -251,6 +257,46 @@ main {
 			align-items: center;
 			h2 {
 				margin-right: 0.4rem;
+			}
+		}
+	}
+}
+.modal-bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.modal {
+		position: relative;
+		background-color: white;
+		max-width: 60%;
+		padding: 3rem;
+		border-radius: $Border-radius-card;
+		p {
+			color: $Neutral-color-dark-gray;
+			margin-left: 3rem;
+		}
+		img:first-child {
+			position: absolute;
+			right: 50px;
+			top: 30px;
+		}
+		.card_outline {
+			.header {
+				display: flex;
+				label {
+					margin-left: 2rem;
+				}
+				h4 {
+					color: $Primary-color-dark-cyan;
+				}
+				.radio {
+					color: $Primary-color-dark-cyan;
+				}
 			}
 		}
 	}

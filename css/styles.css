@@ -29,6 +29,7 @@
 }
 
 body {
+  line-height: 30px;
   background-color: #fdfbfb;
 }
 
@@ -36,7 +37,7 @@ header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 1rem;
+  margin: 2.6rem 10rem;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -48,6 +49,7 @@ header nav a {
 }
 
 header nav .Brand-logo {
+  font-size: 20px;
   font-weight: bolder;
 }
 
@@ -70,7 +72,7 @@ header nav ul li {
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 100%;
-  min-height: 50vh;
+  min-height: 350px;
 }
 
 main {
@@ -241,6 +243,10 @@ main {
   margin-right: 1rem;
 }
 
+.card_amounts .amounts_container .amounts_item P {
+  color: #7a7a7a;
+}
+
 .progress_bar {
   border: none;
   border-radius: 2rem;
@@ -323,4 +329,58 @@ main {
 
 .card_outline .card_outline_footer .card_outline_number_left h2 {
   margin-right: 0.4rem;
+}
+
+.modal-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal-bg .modal {
+  position: relative;
+  background-color: white;
+  max-width: 60%;
+  padding: 3rem;
+  border-radius: 0.9rem;
+}
+
+.modal-bg .modal p {
+  color: #7a7a7a;
+  margin-left: 3rem;
+}
+
+.modal-bg .modal img:first-child {
+  position: absolute;
+  right: 50px;
+  top: 30px;
+}
+
+.modal-bg .modal .card_outline .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.modal-bg .modal .card_outline .header label {
+  margin-left: 2rem;
+}
+
+.modal-bg .modal .card_outline .header h4 {
+  color: #147b74;
+}
+
+.modal-bg .modal .card_outline .header .radio {
+  color: #147b74;
 }
